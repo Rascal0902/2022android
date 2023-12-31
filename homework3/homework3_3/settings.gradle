@@ -1,0 +1,2 @@
+rootProject.name = "gs20046Advanced"
+include ':app'

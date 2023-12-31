@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/registerName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="25dp"
+        android:ems="10"
+        android:hint="이름"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/registerId"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="25dp"
+        android:ems="10"
+        android:hint="아이디"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/registerPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="25dp"
+        android:ems="10"
+        android:hint="비밀번호"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="onRegisterClicked"
+        android:text="회원가입 완료"
+        android:textSize="17dp" /><![CDATA[
+        />
+
+    ]]>
+
+    <Button
+        android:id="@+id/register_tomenu"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_marginTop="50dp"
+        android:onClick="onMenuClicked"
+        android:text="메뉴"
+        android:textSize="17dp"
+        android:visibility="invisible" />
+
+</LinearLayout>

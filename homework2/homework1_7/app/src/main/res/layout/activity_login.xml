@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/getId"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="아이디"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/getPassword"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="패스워드"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:text="로그인"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="회원가입"
+        android:onClick="onRegisterClicked"
+        android:textSize="16dp" />
+
+</LinearLayout>

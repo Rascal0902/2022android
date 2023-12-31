@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:id="@+id/showtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="버튼을 눌러 부분 화면을 추가하세요"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/addbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="추가하기"
+        android:textSize="16dp"
+        android:onClick="onAddClicked"/>
+
+    <Button
+        android:id="@+id/textguide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="학생 보기"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/textguide2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="학부모 보기"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/textguide3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="교사 보기"
+        android:visibility="invisible"/>
+</LinearLayout>
